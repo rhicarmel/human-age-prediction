@@ -1,0 +1,11 @@
+name: human-age-prediction
+dependencies:
+  - python=3.10
+  - tensorflow
+  - keras
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - opencv
