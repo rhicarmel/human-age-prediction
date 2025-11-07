@@ -41,18 +41,13 @@ This regression task was built to explore how visual features correlate with age
 
 ---
 
-## Installing
-```bash
-# Clone repo
-git clone https://github.com/rhicarmel/human-age-prediction.git
-cd human-age-prediction
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Open notebook
-jupyter notebook [updated]HumanAge(ComputerVision).ipynb
-```
+### Running the Project
+1. Clone this repository  
+   `git clone https://github.com/rhicarmel/human-age-prediction.git`
+2. Install dependencies  
+   `pip install -r requirements.txt`
+3. Open the notebook  
+   `jupyter notebook [updated]HumanAge(ComputerVision).ipynb`
 
 ---
 
