@@ -1,4 +1,4 @@
-# 🧑‍💻 HUMAN AGE PREDICTION (COMPUTER VISION)
+# 👁️ HUMAN AGE PREDICTION (COMPUTER VISION)
 
 ## Overview
 A deep learning project that estimates a person’s **age from facial images** using convolutional neural networks and transfer learning.  
