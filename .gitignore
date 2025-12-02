@@ -1,8 +1,39 @@
-__pycache__/
-.ipynb_checkpoints/
-*.h5
-*.csv
-*.png
+# OS files
 .DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+*.env
+
+# Data (raw, processed, large)
 data/*
-!data/.gitkeep
+!data/.gitkeep   # keep folder tracked
+
+# Model weights and logs
+checkpoints/
+logs/
+*.h5
+*.hdf5
+*.ckpt
+
+# Output artifacts
+assets/generated/
+models/
+outputs/
+
+# IDE
+.vscode/
+.idea/
