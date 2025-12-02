@@ -1,8 +1,10 @@
-tensorflow>=2.9.0
-keras>=2.9.0
 numpy
 pandas
 matplotlib
 seaborn
 scikit-learn
+pillow
+tqdm
 opencv-python
+tensorflow==2.12.0
+keras
