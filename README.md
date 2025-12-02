@@ -7,7 +7,7 @@ The task is framed as a **regression problem**, where the model predicts a conti
 The goal is to build a reliable age-prediction pipeline using modern computer vision techniques, transfer learning, and structured experimentation.
 **Best Model:** 🏆 ResNet50 (MAE ≈ 6.8 years on validation data)
 
-🔗 [View the full notebook here](./[updated]HumanAge(ComputerVision).ipynb)
+🔗 [View the full notebook here](./notebooks/Human_Age_Prediction.ipynb)
 
 ---
 ## Project Structure
