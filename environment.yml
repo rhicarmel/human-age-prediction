@@ -1,11 +1,21 @@
 name: human-age-prediction
+channels:
+  - conda-forge
+  - defaults
+
 dependencies:
   - python=3.10
-  - tensorflow
-  - keras
   - numpy
   - pandas
   - matplotlib
   - seaborn
   - scikit-learn
-  - opencv
+  - pillow
+  - jupyter
+  - jupyterlab
+  - pip
+  - pip:
+      - tensorflow==2.12.0
+      - keras
+      - opencv-python
+      - tqdm
