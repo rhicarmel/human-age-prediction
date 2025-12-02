@@ -10,6 +10,32 @@ The goal is to build a reliable age-prediction pipeline using modern computer vi
 🔗 [View the full notebook here](./[updated]HumanAge(ComputerVision).ipynb)
 
 ---
+## Project Structure
+
+```text
+human-age-prediction/
+│
+├── data/
+│   └── .gitkeep                
+│
+├── notebooks/
+│   └── Human_Age_Prediction.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py           # Data loading and augmentation
+│   ├── model_builder.py         # ResNet50 regression model
+│   ├── train.py                 # Training loop and callbacks
+│   └── evaluate.py              # Evaluation utilities and plots
+│
+├── checkpoints/                 # Saved models 
+│
+├── run_training.py              # End to end training script
+├── environment.yml
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
 ## Project Functionality
 
